@@ -5,8 +5,8 @@
 #include <ArduinoJson.h>
 
 #define ledPin 5   //GPIO pin
-const int trigPin = 12;
-const int echoPin = 13;
+const int trigPin = 5;
+const int echoPin = 18;
 
 float period;
 int dist;
